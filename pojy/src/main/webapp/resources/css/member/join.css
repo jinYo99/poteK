@@ -1,0 +1,111 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* 화면 전체 랩 */
+.wrapper{
+	width: 1900px;	
+}
+
+/* content 랩 */
+.wrap{
+	width : 500px;
+	margin: auto;
+}
+
+/* 페이지 제목 */
+.subjecet{
+	text-align: center;
+	margin: 50px 0; 
+}
+.subjecet span{
+    font-size: 35px;
+    font-weight: 800;
+    color: black;
+    margin: auto;
+    display: block;
+}
+
+p{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 20px;
+	font-weight: 800;
+}
+
+#username{
+	width: 95%;
+	height: 50px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#userid{
+	width: 95%;
+	height: 50px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#userpw{
+	width: 95%;
+	height: 50px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#usercpw{
+	width: 95%;
+	height: 50px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#useremail{
+	width: 95%;
+	height: 50px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+
+#btnjoin{
+	width: 96%;
+	height: 70px;
+	font-size: 25px;
+	font-weight: 800;
+	margin: 10px;
+	margin-top: 30px;
+}
+
+/* 아이디, 비밀번호 중복확인  */
+.check-o{
+	width: 95%;
+	font-size: 13px;
+	color: green;
+	margin-left: 10px;
+	display: none;
+}
+
+.check-n{
+	width: 95%;
+	font-size: 13px;
+	color: red;
+	margin-left: 10px;
+	display: none;
+}
+
+.small{
+	width: 95%;
+	font-size: 13px;
+	color: black;
+	margin-left: 10px;
+}
+
+
+/* float 속성 해제 */
+.clearfix{
+	clear: both;
+}

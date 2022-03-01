@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* 화면 전체 랩 */
+.wrapper{
+	width: 1900px;	
+}
+
+/* content 랩 */
+.wrap{
+	width : 1000px;
+	margin: 50px;
+}
+
+label {
+	font-size: 25px;
+}
+
+#bno{
+	display:block;
+	width: 15%;
+	height: 35px;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+#title{
+	display:block;
+	width: 70%;
+	height: 70px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#content{
+	display:block;
+	width: 95%;
+	height: 130px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#writer, #regdate, #updateDate{
+	display:block;
+	width: 30%;
+	height: 35px;
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+
+.btn{
+	width: 80px;
+	height: 50px;
+	float: right;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 5px;
+	cursor: pointer;
+	background-color: #EFEFEF;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid black;
+}
+
+

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* 화면 전체 랩 */
+.wrapper{
+	width: 1900px;	
+}
+
+/* content 랩 */
+.wrap{
+	width : 1000px;
+	margin: 50px;
+}
+
+label {
+	font-size: 30px;
+}
+
+#title{
+	width: 95%;
+	height: 70px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#content{
+	width: 95%;
+	height: 130px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#writer{
+	display:block;
+	width: 30%;
+	height: 35px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.btn{
+	width: 100px;
+	height: 50px;
+	float: right;
+	font-size: 20px;
+	font-weight: 700;
+}
+

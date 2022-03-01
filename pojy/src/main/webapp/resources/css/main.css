@@ -1,0 +1,182 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* 화면 전체 랩 */
+.wrapper{
+	width: 1900px;
+}
+
+/* content 랩*/
+.wrap{
+	width: 1080px;
+	margin: auto;
+}
+
+
+/* logo, serach, login */
+.top{
+	width: 100%;
+	height:150px;
+	border: 1px solid black;
+	border-bottom: 0px;
+}
+
+/* logo */
+.logo{
+	color: black;
+	width: 25%;
+	height: 100%;
+	background-color: gray;
+	/* color: white; - 글씨 색상*/ 
+	float:left;
+	
+}
+
+/* serach */
+.serach{
+	color: white;
+	width: 50%;
+	height: 100%;
+	background-color: gray;
+	float: left;
+	
+}
+
+/* login button */
+.login{
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	background-color: gray;
+	color: black;
+}
+.login_button{
+	/* height: 50%; */
+	background-color: gray;
+	margin-top: 0px;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+/* .login>span{
+	margin-top: 10px;
+	font-weight: 900;
+	display: inline-block;
+} */
+/* .login_button{
+	height: 50%;
+	background-color: #D4DFE6;
+	margin-top: 30px;
+} */
+
+/* 제품 목록 */
+.mid{
+	color: white;
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	
+}
+
+.mid1{
+	width: 90%;
+	font-size: 15px;
+	float: left;
+}
+
+.mid3{
+	width: 10%;
+	font-size: 20px;
+	float: right;
+	height: 35px;
+	margin-top: 10px;
+	background-color: #666666;
+	
+	
+}
+
+/* 홈페이지 메인 제품 */
+.content{
+	color: white;
+	width: 100%;
+	height: 1000px;
+	background-color: gray;
+	border: 1px solid black;
+}
+
+/* 로그인 성공 */
+.login_success{
+	height: 75%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 5% auto;
+    padding-top: 5%;
+}
+
+.login_success>span{
+	display: block;
+	text-align: left;
+	margin-left: 10%;
+}
+
+.login_success>a{
+	font-size: 15px;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 5px;
+    background: #e1e5e8;
+    width: 82px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 25px;
+    color: #606267;  
+}
+
+a {
+	text-decoration-line: none;
+	color: black;
+}
+
+.tableboard {
+	border: black;
+	color: black;
+	
+}
+
+tr, td {
+	text-align: center;
+	height: 30px;
+}
+
+.pageInfo{
+    list-style : none;
+    display: inline-block;
+    margin: 50px 0 0 200px;      
+  }
+  .pageInfo li{
+    float: left;
+    font-size: 20px;
+    margin-left: 18px;
+    padding: 7px;
+    font-weight: 500;
+  }
+ a:link {color:black; text-decoration: none;}
+ a:visited {color:black; text-decoration: none;}
+ a:hover {color:black; text-decoration: underline;}
+
+.active{
+	background-color: #cdd5ec;
+}
+
+/* float 속성 해제 */
+.clearfix{
+	clear: both;
+}

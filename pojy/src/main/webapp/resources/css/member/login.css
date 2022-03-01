@@ -1,0 +1,76 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1900px
+}
+
+/* 화면 전체 랩 */
+.wrap{
+	width: 800px;
+	margin: auto;
+}
+
+/*로고*/
+.logo{
+	text-align: center;
+	margin: 150px 0; 
+}
+.logo>span{
+	font-size: 50px;
+	font-wegiht: 900;
+}
+
+#uesrid{
+	border: 1px solid gray;
+	height: 30px;
+	padding: 10px 14px;
+	display: block;
+	width: 50%;
+	margin: auto;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#userpw{
+	border: 1px solid gray;
+	height: 30px;
+	padding: 10px 14px;
+	display: block;
+	width: 50%;
+	margin: auto;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+
+/* .login_button_wrap{
+	text-align: center;
+} */
+
+#btnlogin{
+	align: center;
+	width: 54%;
+	height: 50px;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+    margin : auto;
+    margin-top : 20px;
+    display: block;
+}
+
+.login_warn{
+	padding: 10px 14px;
+	display: block;
+	width: 40%;
+	margin: auto;
+	font-size: 15px;
+	color: red;
+}
+
+.crearfix{
+	clear: both;
+}
